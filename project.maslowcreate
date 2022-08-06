@@ -259,6 +259,19 @@
                             "ioValue": "source/617214/723670/261828Assembly"
                         }
                     ]
+                },
+                {
+                    "atomType": "Stl",
+                    "name": "Stl",
+                    "x": 0.7724867724867724,
+                    "y": 0.7932098765432098,
+                    "uniqueID": 585197,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/617214/723670/261828Assembly"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -338,6 +351,13 @@
                     "ap2Primary": false,
                     "ap1ID": 261828,
                     "ap2ID": 647997
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 261828,
+                    "ap2ID": 585197
                 },
                 {
                     "ap1Name": "geometry",
