@@ -456,6 +456,19 @@
                                     ]
                                 },
                                 {
+                                    "atomType": "Stl",
+                                    "name": "Stl",
+                                    "x": 0.8313492063492063,
+                                    "y": 0.24074074074074073,
+                                    "uniqueID": 718761,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "source/617214/723670/317990/381030/724123Assembly"
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Rotate",
                                     "name": "Rotate",
                                     "x": 0.1898148148148148,
@@ -761,6 +774,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 724123,
                                     "ap2ID": 535306
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 724123,
+                                    "ap2ID": 718761
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1536,6 +1556,19 @@
                             ]
                         },
                         {
+                            "atomType": "Stl",
+                            "name": "Stl",
+                            "x": 0.8227513227513227,
+                            "y": 0.2345679012345679,
+                            "uniqueID": 767614,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "source/617214/723670/317990/187676ExtractTag"
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Color",
                             "name": "Color",
                             "x": 0.3167989417989418,
@@ -1571,8 +1604,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.53505291005291,
-                            "y": 0.8240740740740741,
+                            "x": 0.5714285714285714,
+                            "y": 0.8333333333333334,
                             "uniqueID": 135962,
                             "ioValues": [
                                 {
@@ -1691,6 +1724,13 @@
                             "ap2Primary": true,
                             "ap1ID": 875375,
                             "ap2ID": 718120
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 187676,
+                            "ap2ID": 767614
                         },
                         {
                             "ap1Name": "geometry",
@@ -1964,5 +2004,5 @@
     "simplify": false,
     "unitsIndex": 0,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.101"
+    "circleSegmentSize": "0.001"
 }
