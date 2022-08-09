@@ -1417,8 +1417,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.4226190476190476,
-                            "y": 0.5555555555555556,
+                            "x": 0.34854497354497355,
+                            "y": 0.5740740740740741,
                             "uniqueID": 718120,
                             "ioValues": [
                                 {
@@ -1430,6 +1430,29 @@
                                     "ioValue": 7
                                 }
                             ]
+                        },
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "Rounded Rectangle",
+                            "x": 0.2447089947089947,
+                            "y": 0.6481481481481481,
+                            "uniqueID": 875375,
+                            "projectID": "509906083",
+                            "ioValues": [
+                                {
+                                    "name": "corner diameter",
+                                    "ioValue": 15
+                                },
+                                {
+                                    "name": "Rectangle height",
+                                    "ioValue": 150
+                                },
+                                {
+                                    "name": "Rectangle width",
+                                    "ioValue": 150
+                                }
+                            ],
+                            "simplify": false
                         },
                         {
                             "atomType": "Assembly",
@@ -1459,29 +1482,6 @@
                                     "ioValue": "source/617214/723670/317990/135962Move"
                                 }
                             ]
-                        },
-                        {
-                            "atomType": "GitHubMolecule",
-                            "name": "Rounded Rectangle",
-                            "x": 0.3214285714285714,
-                            "y": 0.6574074074074074,
-                            "uniqueID": 875375,
-                            "projectID": "509906083",
-                            "ioValues": [
-                                {
-                                    "name": "corner diameter",
-                                    "ioValue": 15
-                                },
-                                {
-                                    "name": "Rectangle height",
-                                    "ioValue": 150
-                                },
-                                {
-                                    "name": "Rectangle width",
-                                    "ioValue": 150
-                                }
-                            ],
-                            "simplify": false
                         },
                         {
                             "atomType": "ExtractTag",
@@ -1526,6 +1526,23 @@
                             ]
                         },
                         {
+                            "atomType": "Tag",
+                            "name": "Add Tag",
+                            "x": 0.43452380952380953,
+                            "y": 0.6574074074074074,
+                            "uniqueID": 262945,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "source/617214/723670/317990/718120Extrude"
+                                },
+                                {
+                                    "name": "tag",
+                                    "ioValue": "Plastic"
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Circle",
                             "name": "Circle",
                             "x": 0.08465608465608465,
@@ -1558,8 +1575,8 @@
                         {
                             "atomType": "Stl",
                             "name": "Stl",
-                            "x": 0.8227513227513227,
-                            "y": 0.2345679012345679,
+                            "x": 0.8207671957671958,
+                            "y": 0.23765432098765432,
                             "uniqueID": 767614,
                             "ioValues": [
                                 {
@@ -1708,6 +1725,20 @@
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
+                            "ap1ID": 718120,
+                            "ap2ID": 262945
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 875375,
+                            "ap2ID": 718120
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 834434,
                             "ap2ID": 187676
                         },
@@ -1717,13 +1748,6 @@
                             "ap2Primary": false,
                             "ap1ID": 834434,
                             "ap2ID": 307646
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 875375,
-                            "ap2ID": 718120
                         },
                         {
                             "ap1Name": "geometry",
