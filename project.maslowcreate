@@ -220,6 +220,42 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Vertical Cyclone",
+                    "x": 0.14771784232365145,
+                    "y": 0.7654320987654322,
+                    "uniqueID": 317990,
+                    "ioValues": [
+                        {
+                            "name": "Cyclone",
+                            "ioValue": "source/617214/723670/381814Code"
+                        }
+                    ],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Input",
+                            "name": "Cyclone",
+                            "x": 0.013333333333333334,
+                            "y": 0.4969135802469136,
+                            "uniqueID": 115304,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.983402489626556,
+                            "y": 0.5,
+                            "uniqueID": 307646,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "simplify": false,
+                    "unitsIndex": 0
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 0.47685185185185186,
@@ -338,6 +374,13 @@
                     "ap2Primary": true,
                     "ap1ID": 381814,
                     "ap2ID": 469222
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Cyclone",
+                    "ap2Primary": false,
+                    "ap1ID": 381814,
+                    "ap2ID": 317990
                 },
                 {
                     "ap1Name": "geometry",
