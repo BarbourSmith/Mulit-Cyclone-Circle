@@ -1388,24 +1388,16 @@
                             "unitsIndex": 0
                         },
                         {
-                            "atomType": "Input",
-                            "name": "Cyclone",
-                            "x": 0.013333333333333334,
-                            "y": 0.4969135802469136,
-                            "uniqueID": 115304,
-                            "ioValues": []
-                        },
-                        {
                             "atomType": "GitHubMolecule",
                             "name": "Linear Pattern",
-                            "x": 0.23544973544973544,
-                            "y": 0.44753086419753085,
+                            "x": 0.2340248962655602,
+                            "y": 0.4382716049382716,
                             "uniqueID": 711388,
                             "projectID": "304166099",
                             "ioValues": [
                                 {
                                     "name": "Spacing",
-                                    "ioValue": 37
+                                    "ioValue": 37.1
                                 },
                                 {
                                     "name": "Number",
@@ -1413,6 +1405,14 @@
                                 }
                             ],
                             "simplify": false
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Cyclone",
+                            "x": 0.013333333333333334,
+                            "y": 0.4969135802469136,
+                            "uniqueID": 115304,
+                            "ioValues": []
                         },
                         {
                             "atomType": "Extrude",
@@ -1509,7 +1509,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "source/617214/723670/317990/718120Extrude"
+                                    "ioValue": "source/617214/723670/317990/262945Tag"
                                 },
                                 {
                                     "name": "xDist",
@@ -1575,8 +1575,8 @@
                         {
                             "atomType": "Stl",
                             "name": "Stl",
-                            "x": 0.8207671957671958,
-                            "y": 0.23765432098765432,
+                            "x": 0.8174603174603176,
+                            "y": 0.2561728395061728,
                             "uniqueID": 767614,
                             "ioValues": [
                                 {
@@ -1609,7 +1609,7 @@
                             "ioValues": [
                                 {
                                     "name": "Spacing",
-                                    "ioValue": 37
+                                    "ioValue": 37.1
                                 },
                                 {
                                     "name": "Number",
@@ -1694,13 +1694,6 @@
                             "ap2ID": 381030
                         },
                         {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "Cyclone",
-                            "ap2Primary": false,
-                            "ap1ID": 115304,
-                            "ap2ID": 858369
-                        },
-                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
@@ -1715,11 +1708,11 @@
                             "ap2ID": 834434
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 718120,
-                            "ap2ID": 576911
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Cyclone",
+                            "ap2Primary": false,
+                            "ap1ID": 115304,
+                            "ap2ID": 858369
                         },
                         {
                             "ap1Name": "geometry",
@@ -1762,6 +1755,13 @@
                             "ap2Primary": false,
                             "ap1ID": 576911,
                             "ap2ID": 834434
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 262945,
+                            "ap2ID": 576911
                         },
                         {
                             "ap1Name": "geometry",
