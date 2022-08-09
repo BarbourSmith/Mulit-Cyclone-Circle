@@ -281,6 +281,36 @@
                                     "ioValues": []
                                 },
                                 {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.35714285714285715,
+                                    "y": 0.5092592592592593,
+                                    "uniqueID": 808483,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 13
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "ExtractTag",
+                                    "name": "Extract Tag",
+                                    "x": 0.6263227513227514,
+                                    "y": 0.1234567901234568,
+                                    "uniqueID": 352192,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "source/617214/723670/317990/381030/423435Assembly"
+                                        },
+                                        {
+                                            "name": "tag",
+                                            "ioValue": "Plastic"
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Tag",
                                     "name": "Add Tag",
                                     "x": 0.24007936507936506,
@@ -317,13 +347,13 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.37566137566137564,
-                                    "y": 0.7067901234567902,
+                                    "x": 0.35449735449735453,
+                                    "y": 0.7222222222222222,
                                     "uniqueID": 876098,
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 10
+                                            "ioValue": 11.5
                                         }
                                     ]
                                 },
@@ -337,23 +367,6 @@
                                         {
                                             "name": "diameter",
                                             "ioValue": 45
-                                        }
-                                    ]
-                                },
-                                {
-                                    "atomType": "ExtractTag",
-                                    "name": "Extract Tag",
-                                    "x": 0.6455026455026455,
-                                    "y": 0.691358024691358,
-                                    "uniqueID": 352192,
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": "source/617214/723670/317990/381030/423435Assembly"
-                                        },
-                                        {
-                                            "name": "tag",
-                                            "ioValue": "Plastic"
                                         }
                                     ]
                                 },
