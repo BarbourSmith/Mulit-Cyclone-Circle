@@ -823,10 +823,6 @@
                                         {
                                             "name": "3D shape 2",
                                             "ioValue": "source/617214/723670/317990/858369/395074Move"
-                                        },
-                                        {
-                                            "name": "3D shape 4",
-                                            "ioValue": "source/617214/723670/317990/858369/667862ShrinkWrap"
                                         }
                                     ]
                                 },
@@ -1192,13 +1188,6 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 4",
-                                    "ap2Primary": false,
-                                    "ap1ID": 667862,
-                                    "ap2ID": 570897
-                                },
-                                {
-                                    "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": 918076,
@@ -1305,7 +1294,7 @@
                                 },
                                 {
                                     "name": "Rectangle height",
-                                    "ioValue": 100
+                                    "ioValue": 150
                                 },
                                 {
                                     "name": "Rectangle width",
@@ -1313,14 +1302,6 @@
                                 }
                             ],
                             "simplify": false
-                        },
-                        {
-                            "atomType": "Box",
-                            "name": "Box",
-                            "x": 0.6362433862433862,
-                            "y": 0.6882716049382717,
-                            "uniqueID": 732520,
-                            "ioValues": []
                         },
                         {
                             "atomType": "Extrude",
@@ -1343,7 +1324,7 @@
                             "atomType": "Move",
                             "name": "Move",
                             "x": 0.4953703703703704,
-                            "y": 0.8302469135802468,
+                            "y": 0.8487654320987654,
                             "uniqueID": 576911,
                             "ioValues": [
                                 {
@@ -1352,11 +1333,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 60
+                                    "ioValue": 55
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 35
+                                    "ioValue": 55
                                 },
                                 {
                                     "name": "zDist",
