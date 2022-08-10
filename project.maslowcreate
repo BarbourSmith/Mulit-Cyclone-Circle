@@ -1388,10 +1388,18 @@
                             "unitsIndex": 0
                         },
                         {
+                            "atomType": "Input",
+                            "name": "Cyclone",
+                            "x": 0.013333333333333334,
+                            "y": 0.4969135802469136,
+                            "uniqueID": 115304,
+                            "ioValues": []
+                        },
+                        {
                             "atomType": "GitHubMolecule",
                             "name": "Linear Pattern",
-                            "x": 0.2340248962655602,
-                            "y": 0.4382716049382716,
+                            "x": 0.28240740740740744,
+                            "y": 0.4104938271604938,
                             "uniqueID": 711388,
                             "projectID": "304166099",
                             "ioValues": [
@@ -1407,12 +1415,101 @@
                             "simplify": false
                         },
                         {
-                            "atomType": "Input",
-                            "name": "Cyclone",
-                            "x": 0.013333333333333334,
-                            "y": 0.4969135802469136,
-                            "uniqueID": 115304,
-                            "ioValues": []
+                            "atomType": "Molecule",
+                            "name": "Add Collection Tube",
+                            "x": 0.19642857142857142,
+                            "y": 0.5277777777777778,
+                            "uniqueID": 113832,
+                            "ioValues": [
+                                {
+                                    "name": "Cyclone",
+                                    "ioValue": "source/617214/723670/317990/381030Molecule"
+                                }
+                            ],
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.1593915343915344,
+                                    "y": 0.35185185185185186,
+                                    "uniqueID": 269887,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 13
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Cyclone",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.5,
+                                    "uniqueID": 333601,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Extrude",
+                                    "name": "Extrude",
+                                    "x": 0.32605820105820105,
+                                    "y": 0.3950617283950617,
+                                    "uniqueID": 169866,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "source/617214/723670/317990/113832/269887Circle"
+                                        },
+                                        {
+                                            "name": "height",
+                                            "ioValue": -2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.15343915343915343,
+                                    "y": 0.7561728395061728,
+                                    "uniqueID": 599151,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 10
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Readme",
+                                    "name": "README",
+                                    "x": 0.44841269841269843,
+                                    "y": 0.8703703703703702,
+                                    "uniqueID": 398260,
+                                    "ioValues": [],
+                                    "readmeText": "Sources: https://handling-solutions.eppendorf.com/fileadmin/Community/Sample_Handling/Mix_Shake/ExtractfromTechnicalDataSheetof1.5mLSafeLockTube_.jpg and https://assets.fishersci.com/TFS-Assets/CCG/product-images/VN00116527-17-ML-SAFESEAL-MCT.JPG-650.jpg",
+                                    "global": false
+                                },
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.9867724867724867,
+                                    "y": 0.5,
+                                    "uniqueID": 681832,
+                                    "ioValues": []
+                                }
+                            ],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 269887,
+                                    "ap2ID": 169866
+                                }
+                            ],
+                            "fileTypeVersion": 1,
+                            "simplify": false,
+                            "unitsIndex": 0
                         },
                         {
                             "atomType": "Molecule",
@@ -2200,6 +2297,13 @@
                             "ap2ID": 711388
                         },
                         {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "Cyclone",
+                            "ap2Primary": false,
+                            "ap1ID": 381030,
+                            "ap2ID": 113832
+                        },
+                        {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
@@ -2228,6 +2332,13 @@
                             "ap2ID": 381030
                         },
                         {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Cyclone",
+                            "ap2Primary": false,
+                            "ap1ID": 115304,
+                            "ap2ID": 858369
+                        },
+                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
@@ -2240,13 +2351,6 @@
                             "ap2Primary": false,
                             "ap1ID": 711388,
                             "ap2ID": 834434
-                        },
-                        {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "Cyclone",
-                            "ap2Primary": false,
-                            "ap1ID": 115304,
-                            "ap2ID": 858369
                         },
                         {
                             "ap1Name": "Geometry",
