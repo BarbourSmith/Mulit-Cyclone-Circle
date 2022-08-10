@@ -3046,6 +3046,19 @@
                                 }
                             ],
                             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n//Inputs:[Input1, Input2, Input3];\n\n\nreturn Group(Input1, Input2, Input3);"
+                        },
+                        {
+                            "atomType": "Stl",
+                            "name": "Stl",
+                            "x": 0.917989417989418,
+                            "y": 0.8240740740740741,
+                            "uniqueID": 129255,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "source/617214/723670/317990/926192ExtractTag"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -3265,6 +3278,13 @@
                             "ap2Primary": true,
                             "ap1ID": 618376,
                             "ap2ID": 926192
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 926192,
+                            "ap2ID": 129255
                         }
                     ],
                     "fileTypeVersion": 1,
