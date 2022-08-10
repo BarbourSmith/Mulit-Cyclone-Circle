@@ -2958,7 +2958,7 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": ""
+                                    "ioValue": "source/617214/723670/317990/627256Move"
                                 },
                                 {
                                     "name": "3D shape 2",
@@ -2975,7 +2975,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": ""
+                                    "ioValue": "source/617214/723670/317990/999044Assembly"
                                 },
                                 {
                                     "name": "tag",
